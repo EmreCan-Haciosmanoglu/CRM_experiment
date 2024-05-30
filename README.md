@@ -9,12 +9,13 @@ Folder Structure
 Front End Next.js App: 
 
 Intellisense Front End:
+```
 │    app/
-│    ├── assets/           # Images, fonts, and other static assets
-│    ├── components/       # Reusable UI components
-│    ├── context/          # Global state management using React Context
-│    ├── data/             # Mock data or data fetching utilities
-│    ├── features/         # Feature-based modules (e.g., authentication, products)
+│    ├── assets/           # Images, fonts, and other static assets  
+│    ├── components/       # Reusable UI components  
+│    ├── context/          # Global state management using React Context  
+│    ├── data/             # Mock data or data fetching utilities  
+│    ├── features/         # Feature-based modules (e.g., authentication, products)  
 │    ├── hooks/            # Custom React hooks
 │    ├── interface/        # TypeScript interfaces for data types
 │    ├── layouts/          # Page layout components (e.g., header, footer)
@@ -37,10 +38,10 @@ Intellisense Front End:
 ├── next.config.mjs        # Next.js configuration file
 ├── package.json           # Project metadata and dependencies
 ├── package-lock.json      # Lockfile for deterministic dependency installation
-
+```
 
 Intellisense API: 
-
+```
 crm-base-api/
 ├── node_modules/       # External dependencies
 ├── src/                # Source Files
@@ -59,7 +60,7 @@ crm-base-api/
 ├── index.ts            # Entry point
 ├── logger.ts           # Logging configuration
 └── swaggerConfig.ts    # Swagger setup
-
+```
 ## Installing dependencies, and starting project
 
 1. Clone this repository
